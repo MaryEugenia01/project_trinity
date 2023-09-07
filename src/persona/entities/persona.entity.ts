@@ -9,9 +9,11 @@ export class persona {
     @Column("text")
     firstname: string;
 
-    @Column("text")
+    @Column("text")//apellido papi
     lastname: string;
 
     @Column("text")
     edad: string;
+
+    
 };
