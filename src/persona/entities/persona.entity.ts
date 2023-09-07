@@ -9,7 +9,7 @@ export class persona {
     @Column("text")
     firstname: string;
 
-    @Column("text")//apellido papito
+    @Column("text")//apellido papito sape sape sae saoe
     lastname: string;
 
     @Column("text")
