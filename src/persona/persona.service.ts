@@ -5,22 +5,22 @@ import { UpdatePersonaDto } from './dto/update-persona.dto';
 @Injectable()
 export class PersonaService {
   create(createPersonaDto: CreatePersonaDto) {
-    return 'This action adds a new persona';
+    return 'Esto crea una nueva Persona';
   }
 
   findAll() {
-    return `This action returns personas list`;
+    return `Retorna la lista de personas`;
   }
 
   findOne(id: number) {
-    return `This action returns a #${id} persona`;
+    return `devuelve el #${id} de persona`;
   }
 
   update(id: number, updatePersonaDto: UpdatePersonaDto) {
-    return `This action updates a #${id} persona`;
+    return `Actualiza el #${id} persona`;
   }
 
   remove(id: number) {
-    return `This action removes a #${id} persona`;
+    return `Esto Quita el #${id} de persona`;
   }
 }
