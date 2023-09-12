@@ -11,7 +11,7 @@ export class PersonaController {
   create(@Body() createPersonaDto: CreatePersonaDto) {
     return this.personaService.create(createPersonaDto);
   }
-//buenaass sape sape lol
+//Ahora si un comentario mas apropiado xd
   @Get()
   findAll() {
     return this.personaService.findAll();
